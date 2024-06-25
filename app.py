@@ -9,7 +9,7 @@ import joblib
 import numpy as np
 
 # Load model and scaler
-knn_classifier = joblib.load('model_klasifikais.pkl')
+knn_classifier = joblib.load('model_klasifikasi.pkl')
 scaler = joblib.load('scaler.pkl')
 
 # Define function for prediction
