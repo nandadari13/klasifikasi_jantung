@@ -87,12 +87,12 @@ accuracy = accuracy_score(y_test, y_pred)
 user_prediction = knn_classifier.predict(df_scaled)
 
 # Tampilkan hasil evaluasi
-st.subheader('Model Evaluation')
-st.write(f"Akurasi: {accuracy:.2f}")
-st.write("Classification Report:")
-st.text(classification_report(y_test, y_pred))
-st.write("Confusion Matrix:")
-st.write(confusion_matrix(y_test, y_pred))
+# st.subheader('Model Evaluation')
+# st.write(f"Akurasi: {accuracy:.2f}")
+# st.write("Classification Report:")
+# st.text(classification_report(y_test, y_pred))
+# st.write("Confusion Matrix:")
+# st.write(confusion_matrix(y_test, y_pred))
 
 # Tampilkan hasil prediksi untuk input pengguna
 st.subheader('Hasil Prediksi')
