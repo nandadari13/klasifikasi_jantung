@@ -81,4 +81,4 @@ user_prediction = knn_classifier.predict(df_scaled)
 
 # Tampilkan hasil prediksi untuk input pengguna
 st.subheader('Hasil Prediksi')
-st.write('Penyakit Jantung' if user_prediction[0] == 0 else 'Tidak Ada Penyakit Jantung')
+st.write('Penyakit Jantung' if user_prediction[0] == 1 else 'Tidak Ada Penyakit Jantung')
