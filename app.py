@@ -49,7 +49,7 @@ st.subheader('Input Parameters')
 st.write(df)
 
 # Load dataset
-@st.cache
+@st.cache_data
 def load_data():
     data = pd.read_csv('heart.csv')
     return data
